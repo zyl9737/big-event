@@ -26,7 +26,7 @@ export default [
         }
       ],
       'vue/no-setup-props-destructure': 'off',
-      'no-undef': 'off'
+      'no-undef': 'error'
     }
   }
 ]

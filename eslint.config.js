@@ -18,6 +18,13 @@ export default [
   skipFormatting,
 
   {
+    languageOptions: {
+      globals: {
+        ElMessage: 'readonly',
+        ElMessageBox: 'readonly',
+        ElLoading: 'readonly'
+      }
+    },
     rules: {
       'vue/multi-word-component-names': [
         'warn',

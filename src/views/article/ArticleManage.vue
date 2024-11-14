@@ -10,7 +10,6 @@
         <!-- Vue2 => v-model :value 和 @input 的简写 -->
         <!-- Vue3 => v-model :modelValue 和 @update:modelValue 的简写 -->
         <channel-select v-model="params.cate_id"></channel-select>
-
         <!-- Vue3 => v-model:cid  :cid 和 @update:cid 的简写 -->
         <!-- <channel-select v-model:cid="params.cate_id"></channel-select> -->
       </el-form-item>
